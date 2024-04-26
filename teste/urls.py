@@ -25,8 +25,6 @@ def hello(request):
     return {"message": "Hello World"}
 
 
-
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/", api.urls),
